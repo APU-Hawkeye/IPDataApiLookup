@@ -3,16 +3,28 @@
     "description": "Integration of IP Data API to lookup the location, ownership and threat profile of any IP address.",
     "type": "library",
     "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Swarup\\IpDataApiLookup\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "Hawkeye",
             "email": "swarup@agpaytech.co.uk"
         }
     ],
-    "require": {}
+    "require": {
+        "guzzlehttp/guzzle": "^7.4",
+        "respect/validation": "^2.2",
+        "josegonzalez/dotenv": "^3.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "IPDataApiLookup\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "IPDataApiLookup\\": "tests/"
+        }
+    }
 }
