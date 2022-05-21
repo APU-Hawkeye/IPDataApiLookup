@@ -1,0 +1,18 @@
+{
+    "name": "swarup/ip-data-api-lookup",
+    "description": "Integration of IP Data API to lookup the location, ownership and threat profile of any IP address.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Swarup\\IpDataApiLookup\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hawkeye",
+            "email": "swarup@agpaytech.co.uk"
+        }
+    ],
+    "require": {}
+}
